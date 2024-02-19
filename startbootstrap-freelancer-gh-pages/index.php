@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="robots" content="all">
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>portfolio</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -182,53 +182,6 @@
                 <!-- 検索結果をここに表示する -->
                 </div>
                 </p>
-                
-                <?php
-                // データベースへ接続
-                //     $dsn = "mysql:dbname=hz-212_practice;host=mysql654.db.sakura.ne.jp;charset=utf8";
-                //     $username = "hz-212";
-                //     $password = "hiroriyoung212";
-                //     $options = [
-                //         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, // エラーモードを例外モードに設定
-                //         PDO::ATTR_EMULATE_PREPARES => false, // プリペアドステートメントのエミュレートを無効にする
-                //                 ];
-    
-                // try {
-                // $pdo = new PDO($dsn, $username, $password, $options);
-
-                //     // フォームから送信されたデータを取得
-                //     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                //         $search_query = $_POST["search"];
-                    
-                //         // 検索クエリを使ってデータベースから結果を取得
-                //         $sql = "SELECT * FROM common WHERE function LIKE ? OR shortcut LIKE ?";
-                //         $result = $pdo->prepare($sql);
-                //         $result->execute(['%' . $search_query . '%', '%' . $search_query . '%']);
-                //         $data = $result->fetchAll();
-                    
-                //         // 検索結果をHTML形式で返す
-                //         if (count($data) > 0) {
-                //             echo "<table border='1'>";
-                //             echo "<thead><tr><th>Function</th><th>Shortcut</th></tr></thead>";
-                //             echo "<tbody>";
-                    
-                //             foreach ($data as $row) {
-                //                 echo "<tr>";
-                //                 echo "<td>" . htmlspecialchars($row["function"]) . "</td>";
-                //                 echo "<td>" . htmlspecialchars($row["shortcut"]) . "</td>";
-                //                 echo "</tr>";
-                //             }
-                    
-                //             echo "</tbody>";
-                //             echo "</table>";
-                //         } else {
-                //             echo "該当する結果はありませんでした。";
-                //         }
-                //     }
-                // } catch (PDOException $e) {
-                // echo "エラー：" . $e->getMessage();
-                // }
-                ?>
             </div>
         </div>
     </section>
