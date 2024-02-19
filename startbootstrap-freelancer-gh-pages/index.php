@@ -185,9 +185,9 @@
                 
                 <?php
                 // データベースへ接続
-                //     $dsn = "mysql:dbname=hz-212_practice;host=mysql654.db.sakura.ne.jp;charset=utf8";
-                //     $username = "hz-212";
-                //     $password = "hiroriyoung212";
+                //     $dsn = "mysql:dbname=★;host=★;charset=utf8";
+                //     $username = "★";
+                //     $password = "★";
                 //     $options = [
                 //         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, // エラーモードを例外モードに設定
                 //         PDO::ATTR_EMULATE_PREPARES => false, // プリペアドステートメントのエミュレートを無効にする
