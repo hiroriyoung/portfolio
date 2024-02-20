@@ -77,9 +77,7 @@
             </div>
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0">look to Engineer</p>
-            <p class="masthead-subheading font-weight-light mb-0">hiking</p>
-            <p class="masthead-subheading font-weight-light mb-0">golf</p>
-            <p class="masthead-subheading font-weight-light mb-0">game</p>
+            <p class="masthead-subheading font-weight-light mb-0">hiking-golf-game</p>
 
         </div>
     </header>
@@ -182,7 +180,6 @@
                 <!-- 検索結果をここに表示する -->
                 </div>
                 </p>
-
             </div>
         </div>
     </section>
@@ -252,14 +249,17 @@
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://line.me/ti/p/6CXozNm1Q2">LINE</a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/hiroriyoung/portfolio">GH</a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://line.me/ti/p/6CXozNm1Q2" target="_blank">LINE</a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/hiroriyoung/portfolio/tree/main/startbootstrap-freelancer-gh-pages" target="_blank">GH</a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">About link</h4>
                     <p class="lead mb-0">
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                    </p>
+                    <p class="lead mb-0">
+                        <a href="https://lblink.notion.site/lblink/fb066ea26c71407a81cac71437e24964" target="_blank">役立ちリンク集</a>
                     </p>
                 </div>
             </div>
